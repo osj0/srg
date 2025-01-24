@@ -1,8 +1,10 @@
 .sub-inner{padding:70px 0;}
 
 
-.sub_tit{display: flex; justify-content: center; align-items: center;height: 200px;
-    background: url(/img/info_bg01.jpg) no-repeat; background-position: center;}
+.sub_tit{display: flex; justify-content: center; align-items: center;height: 300px;
+    background: url(/img/com_bg.png) no-repeat; background-position: center;
+    background-size: cover;}
+    .sub_tit h1{color:#fff;}
 .info_cont_bx{padding:70px 0;}
 
 
@@ -14,7 +16,8 @@
 
 .circle .inner{flex-direction: column;width: 100%;height: 100%;display: flex;    transform: translate(-50%, -50%);
 align-items: center; justify-content: center;position: absolute; top: 50%; left: 50%;}
-.circle .inner .icon{height:30px; width: 30px; background:#ddd;}
+.circle .inner .icon{width: 115px;}
+.circle .inner .icon img{width: 100%;}
 .circle .inner hr{height: 20px;margin: 10px 0;width: 1px;background: #333;}
 
 .info-3img{background:url(/img/bner01.jpg) no-repeat; width:100%; height: 500px;}
