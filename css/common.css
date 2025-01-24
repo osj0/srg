@@ -9,7 +9,8 @@ body {
     margin-top: 80px;
     font-family: 'Pretendard', sans-serif;
 }
-
+p{margin:0;}
+img{width: 100%;}
 ul, li { text-decoration: none; list-style: none; padding: 0; margin: 0; }
 a { display: block; cursor: pointer; }
 /* div, a{border:1px solid #f00;} */
