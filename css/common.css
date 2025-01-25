@@ -37,7 +37,7 @@ a { display: block; cursor: pointer; }
 .nav-btn-bx{display: flex; justify-content: space-between;}
 .nav-btn-more{border:none; background-color: transparent;padding: 0 20px;}
 .nav-btn-more:after{content: ""; clear: both; display: block;
-width: 25px; height: 25px; background: url(./img/nav-btn-more.png) no-repeat;
+width: 25px; height: 25px; background: url(/img/nav-btn-more.png) no-repeat;
 background-size: 25px;}
 .nav-btn-more img{width: 25px; height: 25px;}
 
@@ -45,6 +45,7 @@ background-size: 25px;}
 .nav-item.active .nav-btn-more:after{transform: rotate(180deg);}
 
 .sub-mn-bx{display:none;}
+.sub-mn-bx.active{display:block;}
 .sub-mn-ul {width: 300px;width: 100%;}
 .sub-mn-ul li{padding:20px;}
 .sub-mn-ul li a{color:#333; text-decoration: none;}

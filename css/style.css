@@ -40,18 +40,16 @@
     .swiper-button-prev.bner-prev:after,.swiper-button-next.bner-next:after{font-size:24px;}
 
    /*3*/
-  .main-process{padding:70px 0;}
-  .main-clean-bx{margin:0 auto; display: flex; flex-flow: column; 
-  width: 80%;}
+  .main-process{padding:70px 0;overflow: hidden;}
+.main-clean-bx{display: flex; position: relative; overflow: visible;}
+.main-clean{border: 1px solid #ddd;border-radius: 10px;padding: 30px;margin: 0 10px;}
+.main-clean .tit h2{font-size: 22px;}
+.main-clean .tit span{color:#00550e; font-weight: bold;}
+.clean-img{padding:30px 0;}
+.clean-img img{border-radius: 10px; height:250px;}
 
-  .main-clean {display: flex; margin:15px 0; box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.2); border-radius: 10px; padding: 5px 16px;}
-  .main-clean:nth-child(2n-1){ flex-flow: row-reverse; }
-  .clean-img{display:none;}
-  .clean-img img{width: 100%;}
-  .main-clean p{text-align: center; margin:0; width: 80%;    padding: 18px 0;}
-  .main-clean span{background: rgb(0, 95, 5); z-index: 9;position: relative; border-radius: 100%; margin:10px auto; width: 40px; height: 40px;display: block;color: #fff; text-align: center;line-height: 40px;}
-
-  /* 4 */
+.clean-btn-bx{display: flex;position: absolute;right: 0;top: -60px;}
+.clean-btn-bx .clean-next, .clean-btn-bx .clean-prev{width: 30px; height:30px; background:#ddd;}
 
   .main-3bx-inner{padding:70px 0;background: rgba(0, 0, 0, 0.5);}
   .main-3bx{background: url(/img/process-bg.jpg) no-repeat; background-size: cover;}
@@ -68,7 +66,7 @@
 .prod-img img{width:100%}
 .prod-txt{width:50%;margin: 0;padding: 0 20px;}
   
-    /*3*/
+    /* 3
     .main-clean-bx{flex-flow: row; justify-content: space-around;position: relative;}
     .main-clean-bx:after { content: ""; clear: both; display: block;
       width: 100%; border-top: 1px solid #ddd;position: absolute;top: 300px;left: 0;
@@ -79,6 +77,6 @@
     .main-clean p{text-align: center; margin-bottom: -3px;padding:0;}
     .main-clean:nth-child(2n-1){margin:0px;}
     .main-clean:nth-child(2n){margin-top:270px;flex-flow: row-reverse; }
-    .main-clean:nth-child(2n) .clean-img{margin-top:10px;}
+    .main-clean:nth-child(2n) .clean-img{margin-top:10px;} */
 
   }

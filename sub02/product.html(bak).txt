@@ -22,22 +22,33 @@
 
 <!-- s : main  -->
 <main>
-    <div class="sub_tit sub_prd02"><h1>제품소개</h1></div>
+    <div class="sub_tit prd01"><h1>제품소개</h1></div>
 <div class="product-wrap">
-        <div class="prd01-bx">
-            <div class="tit">
-                <p class="stit">한국 전통 요리 식재료</p>
+    <div class="">
+        <div class="prd01-inner">
+            <div class="prd01-img"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"><img src="/img/product02.png" alt=""></div>
+            <div class="tit" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <h2>배추 (우거지)</h2>
-            </div>
-            
-            <div class="prd01-img"><img src="/img/product02.png" alt=""></div>
-            <div class="txt">
-                <p>배추의 겉잎이나 줄기 부분을 활용하여 만든 식재료</p>
-                <p>한국 전통 요리에 자주 사용되며,<br> 전통적으로 국이나 찌개, 나물 요리에 없어서는 안 될 재료로 여겨온 전통음식</p>
-                <p>우거지와 같이 말린 나물은 비타민 D가 풍부하며, 비타민 D는 성장기 아이들의 발육에 도움을 준다.</p>
+
+                <div>
+                    <p>배추의 겉잎이나 줄기 부분을 활용하여 만든 식재료로, 깊은 풍미와 영양을 자랑한다.</p>
+                    <p>한국 전통 요리에 자주 사용되며, 전통적으로 국이나 찌개, 나물 요리에 없어서는 안 될 재료로 여겨온 전통음식</p>
+                    <p>우거지와 같이 말린 나물은 비타민 D가 풍부하며, 비타민 D는 성장기 아이들의 발육에 도움을 준다.</p>
+                </div>
+                <div>
+                    <p>배추의 겉잎이나 줄기 부분을 활용하여 만든 식재료로, 깊은 풍미와 영양을 자랑한다.</p>
+                    <p>한국 전통 요리에 자주 사용되며, 전통적으로 국이나 찌개, 나물 요리에 없어서는 안 될 재료로 여겨온 전통음식</p>
+                    <p>우거지와 같이 말린 나물은 비타민 D가 풍부하며, 비타민 D는 성장기 아이들의 발육에 도움을 준다.</p>
+                </div>
             </div>
         </div>
-    <!-- <div class="prd03 ">
+        
+    </div>
+    <div class="prd03 ">
         <div class="prd-inner container" data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500">
@@ -89,33 +100,35 @@
             </div>
             
         </div>
-    </div> -->
+    </div>
     <div class="prd02">
-        <div class="prd-inner">
+        <div class="prd-inner" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="main-cont-tit" >
-                <p class="stit text-center">영양가득 몸에 좋은 시래기</p>
+                <p class="text-center">영양가득 몸에 좋은 시래기</p>
                 <h2 class="text-center">시래기의 놀라운 효능</h2>
             </div>
             <div class="eff-bx container">
                 <div class="eff">
-                    <div class="eff-img"><!--<img src="/img/eff01.png" alt="">--></div>
+                    <div class="eff-img"><img src="/img/eff01.png" alt=""></div>
                     <div class="eff-txt">
-                        <p class="efft-tit">1. <span>풍부한 영양소</span></p>
-                        <p class="txt">우거지는 비타민 A, C, K, 칼슘, 철분 등 다양한 영양소가 풍부해 면역력을 높이고 뼈 건강에 도움을 줍니다.</p>
+                        <p class="efft-tit">풍부한 영양소</p>
+                        <p>우거지는 비타민 A, C, K, 칼슘, 철분 등 다양한 영양소가 풍부해 면역력을 높이고 뼈 건강에 도움을 줍니다.</p>
                     </div>
                 </div>
                 <div class="eff">
-                    <div class="eff-img"><!--<img src="/img/eff02.png" alt="">--></div>
+                    <div class="eff-img"><img src="/img/eff02.png" alt=""></div>
                     <div class="eff-txt">
-                        <p class="efft-tit">2. <span>소화 촉진</span></p>
-                        <p class="txt">우거지는 식이섬유가 많아서 소화기능을 도와주고 장 건강을 개선하는 데 유익합니다. 변비 예방에도 효과적이에요.</p>
+                        <p class="efft-tit">소화 촉진</p>
+                        <p>우거지는 식이섬유가 많아서 소화기능을 도와주고 장 건강을 개선하는 데 유익합니다. 변비 예방에도 효과적이에요.</p>
                     </div>
                 </div>
                 <div class="eff">
-                    <div class="eff-img"><!--<img src="/img/eff03.png" alt="">--></div>
+                    <div class="eff-img"><img src="/img/eff03.png" alt=""></div>
                     <div class="eff-txt">
-                        <p class="efft-tit">3. <span>향산화 효과</span></p>
-                        <p class="txt">우거지에는 항산화 성분인 베타카로틴과 플라보노이드가 포함되어 있어, 세포 손상을 줄이고 노화 방지에 도움을 줄 수 있습니다.</p>
+                        <p class="efft-tit">향산화 효과</p>
+                        <p>우거지에는 항산화 성분인 베타카로틴과 플라보노이드가 포함되어 있어, 세포 손상을 줄이고 노화 방지에 도움을 줄 수 있습니다.</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +154,6 @@
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script src="../common/common.js"></script>
